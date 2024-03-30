@@ -8,9 +8,9 @@ const resetBtn = document.querySelector("button");
 
 // adding the event listeners //
 
-/*resetBtn.addEventListener ("click" , function(event) {
+resetBtn.addEventListener ("click" , function(event) {
     display.value = "";
-});*/
+});
 
 calculateBtn.addEventListener ("click" , function(event){
     event.preventDefault();
