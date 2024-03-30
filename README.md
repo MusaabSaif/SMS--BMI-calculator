@@ -1,1 +1,1 @@
-# SMS--BMI-calculator
+# SMS-MY Projects
