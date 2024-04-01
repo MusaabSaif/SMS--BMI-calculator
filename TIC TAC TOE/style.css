@@ -1,0 +1,47 @@
+*{
+    background-color: lightgreen;
+}
+
+
+.cell {
+    width: 90px;
+    height: 90px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 80px;
+    font-size: 60px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#cell-container {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 250px;
+    margin: auto;
+
+}
+
+#game-container {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    margin-top: 4rem;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+#restartbtn {
+    background-color: darkturquoise;
+    color: white;
+    height: 25px;
+    margin-top: 2rem;
+    font-size: 2rem;
+    height: 3rem;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+
+#statusText {
+    font-size: 2rem;
+}
